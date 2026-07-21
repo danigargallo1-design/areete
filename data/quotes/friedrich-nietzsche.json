@@ -1,0 +1,21 @@
+{
+  "author": "Friedrich Nietzsche",
+  "quotes": [
+    {
+      "text": "Quien tiene un porqué para vivir puede soportar casi cualquier cómo.",
+      "author": "Friedrich Nietzsche",
+      "category": "sentido",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "Lo que no me mata me hace más fuerte.",
+      "author": "Friedrich Nietzsche",
+      "category": "fortaleza",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    }
+  ]
+}

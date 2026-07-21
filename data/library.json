@@ -1,0 +1,28 @@
+{
+  "thought": [
+    "Leer", "Programar", "Estudiar","Idiomas",
+    "Escribir",
+    "Música", "Guitarra", "Piano", "Violín", "Producción musical",
+    "Modelado 3D", "Fotografía", "Edición de vídeo",
+    "Desarrollo web"
+  ],
+  "body": [
+    "Gimnasio", "Calistenia", "Correr", "Bicicleta", "Natación", "Senderismo",
+    "Escalada", "Artes marciales", "Boxeo",
+    "Estiramientos",
+    "Caminar", "Fútbol", "Baloncesto", "Tenis"
+  ],
+  "habits": [
+    "Hacer la cama", "Preparar el día", "No usar el móvil al despertar",
+    "Dormir antes de la hora objetivo", "Despertarme a la hora prevista",
+    "Beber suficiente agua",
+    "Planificar mañana", "No consumir azúcar", "No consumir alcohol",
+    "No fumar"
+  ],
+  "character": [
+    "Procrastinar", "Lujuria", "Redes sociales", "Romper mi palabra",
+    "Mentir", "Pereza", "Perder el tiempo",
+    "Quejarme",
+    "Rendirme demasiado pronto", "Falta de disciplina"
+  ]
+}

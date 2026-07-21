@@ -1,0 +1,37 @@
+{
+  "author": "Laozi",
+  "quotes": [
+    {
+      "text": "Un viaje de mil millas comienza con un solo paso.",
+      "author": "Laozi",
+      "category": "acción",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "Dominar a otros es fuerza; dominarse a sí mismo es poder.",
+      "author": "Laozi",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La naturaleza no se apresura, y sin embargo todo se realiza.",
+      "author": "Laozi",
+      "category": "paciencia",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "El que sabe no habla; el que habla no sabe.",
+      "author": "Laozi",
+      "category": "sobriedad",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    }
+  ]
+}

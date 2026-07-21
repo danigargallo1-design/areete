@@ -1,0 +1,29 @@
+{
+  "author": "Platón",
+  "quotes": [
+    {
+      "text": "La libertad consiste en ser dueños de la propia vida.",
+      "author": "Platón",
+      "category": "libertad",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "El comienzo es la parte más importante del trabajo.",
+      "author": "Platón",
+      "category": "trabajo",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "La primera y mejor victoria es conquistarse a sí mismo.",
+      "author": "Platón",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    }
+  ]
+}

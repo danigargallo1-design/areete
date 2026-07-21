@@ -1,0 +1,21 @@
+{
+  "author": "Viktor Frankl",
+  "quotes": [
+    {
+      "text": "El que tiene un porqué puede soportar casi cualquier cómo.",
+      "author": "Viktor Frankl",
+      "category": "sentido",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "Cuando ya no podemos cambiar una situación, tenemos el desafío de cambiarnos a nosotros mismos.",
+      "author": "Viktor Frankl",
+      "category": "carácter",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "author": "Mahatma Gandhi",
+  "quotes": [
+    {
+      "text": "La mejor manera de encontrarte es perderte al servicio de los demás.",
+      "author": "Mahatma Gandhi",
+      "category": "servicio",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La fuerza no proviene de la capacidad física; proviene de una voluntad indomable.",
+      "author": "Mahatma Gandhi",
+      "category": "fortaleza",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "Sé el cambio que quieres ver en el mundo.",
+      "author": "Mahatma Gandhi",
+      "category": "acción",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La libertad no vale nada si no incluye la libertad de equivocarse.",
+      "author": "Mahatma Gandhi",
+      "category": "libertad",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La verdad nunca daña una causa que es justa.",
+      "author": "Mahatma Gandhi",
+      "category": "verdad",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    }
+  ]
+}

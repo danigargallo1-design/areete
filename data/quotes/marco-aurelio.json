@@ -1,0 +1,53 @@
+{
+  "author": "Marco Aurelio",
+  "quotes": [
+    {
+      "text": "La felicidad de tu vida depende de la calidad de tus pensamientos.",
+      "author": "Marco Aurelio",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "Tienes poder sobre tu mente, no sobre los acontecimientos externos.",
+      "author": "Marco Aurelio",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "No pierdas más tiempo discutiendo cómo debe ser un hombre bueno. Sé uno.",
+      "author": "Marco Aurelio",
+      "category": "carácter",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La impedimenta para la acción hace avanzar la acción.",
+      "author": "Marco Aurelio",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "Haz cada acto de tu vida como si fuera el último.",
+      "author": "Marco Aurelio",
+      "category": "presencia",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La vida de cada hombre es lo que sus pensamientos hacen de ella.",
+      "author": "Marco Aurelio",
+      "category": "pensamiento",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    }
+  ]
+}

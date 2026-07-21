@@ -1,0 +1,29 @@
+{
+  "author": "Sócrates",
+  "quotes": [
+    {
+      "text": "Una vida sin examen no merece ser vivida.",
+      "author": "Sócrates",
+      "category": "pensamiento",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+      "author": "Sócrates",
+      "category": "humildad",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "Solo sé que no sé nada.",
+      "author": "Sócrates",
+      "category": "humildad",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    }
+  ]
+}

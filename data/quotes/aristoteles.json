@@ -1,0 +1,45 @@
+{
+  "author": "Aristóteles",
+  "quotes": [
+    {
+      "text": "Conocerse a sí mismo es el principio de toda sabiduría.",
+      "author": "Aristóteles",
+      "category": "pensamiento",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.",
+      "author": "Aristóteles",
+      "category": "hábitos",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La paciencia es amarga, pero su fruto es dulce.",
+      "author": "Aristóteles",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "El placer en el trabajo pone perfección en la obra.",
+      "author": "Aristóteles",
+      "category": "trabajo",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "La educación es el mejor recurso para la vejez.",
+      "author": "Aristóteles",
+      "category": "aprendizaje",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    }
+  ]
+}

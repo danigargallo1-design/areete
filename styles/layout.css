@@ -1,0 +1,194 @@
+/* Todo absolutamente centrado. Muchísimo espacio vacío.
+   La vista respira. Un único objetivo por pantalla. */
+
+.shell {
+  width:100%;
+  max-width:520px;
+  min-height:100dvh;
+  margin:auto;
+}
+
+.screen {
+  min-height:100dvh;
+  display:grid;
+  grid-template-rows:minmax(0, 1fr) auto;
+  padding:calc(56px + env(safe-area-inset-top)) 40px calc(48px + env(safe-area-inset-bottom));
+}
+.screen-content {
+  min-height:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.ritual-center {
+  width:100%;
+  max-width:360px;
+  text-align:center;
+}
+.section-content { display:flex; flex-direction:column; justify-content:center; }
+
+.form-stack {
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  gap:34px;
+  text-align:left;
+}
+.report { gap:28px; }
+.report textarea { min-height:56px; }
+
+.page {
+  min-height:100dvh;
+  padding:calc(48px + env(safe-area-inset-top)) 40px calc(48px + env(safe-area-inset-bottom));
+}
+.page header {
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  margin-bottom:64px;
+}
+.page header h1 { margin:0; }
+.page header a, .back {
+  border:0;
+  padding:0;
+  background:transparent;
+  color:var(--muted);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:9px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+
+.settings-content { display:flex; flex-direction:column; gap:56px; }
+.settings section { display:flex; flex-direction:column; gap:14px; }
+
+/* Frase de apertura — protagonismo absoluto */
+.opening {
+  display:flex;
+  min-height:320px;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+.opening .date { margin-bottom:72px; }
+
+/* Veredicto — parte oficial */
+.verdict {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:0;
+}
+.verdict-title {
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:10px;
+  letter-spacing:.36em;
+  color:var(--text);
+  margin:0 0 56px;
+  text-transform:uppercase;
+}
+.verdict-block { margin:0 0 34px; }
+.verdict-block .label {
+  display:block;
+  color:var(--muted);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:9px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+.verdict-block .figure {
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:24px;
+  letter-spacing:.08em;
+  color:var(--text);
+}
+.verdict-compare {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:0;
+  width:100%;
+  max-width:280px;
+  margin:16px 0 44px;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  padding:22px 0;
+}
+.verdict-compare > div { display:flex; flex-direction:column; align-items:center; gap:10px; }
+.verdict-verdict {
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:10px;
+  letter-spacing:.24em;
+  color:var(--text);
+  text-transform:uppercase;
+  margin:0 0 24px;
+}
+.verdict-streaks {
+  margin:12px 0 0;
+  color:var(--muted);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:9px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  line-height:1.9;
+}
+
+/* Pantalla principal / parte diario */
+.home {
+  min-height:100dvh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:calc(60px + env(safe-area-inset-top)) 40px calc(60px + env(safe-area-inset-bottom));
+  gap:0;
+}
+.home .day-number {
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:11px;
+  letter-spacing:.36em;
+  color:var(--muted);
+  margin:0 0 20px;
+}
+.home .home-date {
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:10px;
+  letter-spacing:.28em;
+  color:var(--text);
+  margin:0 0 96px;
+}
+.home .home-status {
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:10px;
+  letter-spacing:.32em;
+  color:var(--text);
+  margin:0 0 18px;
+  text-transform:uppercase;
+}
+.home .home-time {
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:22px;
+  letter-spacing:.12em;
+  color:var(--text);
+  margin:0 0 88px;
+}
+.home .home-nav {
+  display:flex;
+  gap:36px;
+  margin-top:auto;
+}
+.home .home-nav a {
+  color:var(--muted);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:9px;
+  letter-spacing:.28em;
+  text-transform:uppercase;
+}
+
+/* Transiciones — los overlays "SECCIÓN COMPLETADA" y "ARCHIVANDO INFORME…"
+   se declaran en styles/animations.css como `.flash-overlay` y comparten el
+   sistema de capas `.layer`. Aquí no queda nada específico. */

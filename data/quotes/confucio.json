@@ -1,0 +1,37 @@
+{
+  "author": "Confucio",
+  "quotes": [
+    {
+      "text": "El hombre que ha cometido un error y no lo corrige comete otro error mayor.",
+      "author": "Confucio",
+      "category": "carácter",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "No importa lo lento que vayas mientras no te detengas.",
+      "author": "Confucio",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "Exígete mucho a ti mismo y espera poco de los demás.",
+      "author": "Confucio",
+      "category": "carácter",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "El que mueve una montaña empieza por apartar pequeñas piedras.",
+      "author": "Confucio",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+/* -----------------------------------------------------------------------------
+   ARETÉ — Transiciones (arquitectura de hoja única).
+
+   Fade puro. Duración fija 350ms, curva ease-in-out. Nada más.
+   Sin translate, scale, blur, slide, rotate, spring ni rebotes.
+
+   Regla: la siguiente pantalla no existe visualmente hasta que la anterior ha
+   desaparecido completamente. Este archivo solo declara los estados de la
+   capa; el orden lo controla `js/transitions.js`.
+   ----------------------------------------------------------------------------- */
+
+/* Cualquier nodo raíz de una pantalla montada por el sistema de transiciones
+   se marca con `.layer`. Nace invisible; solo se muestra cuando el motor
+   añade `.is-visible`. */
+.layer {
+  opacity: 0;
+  transition: opacity 350ms ease-in-out;
+  will-change: opacity;
+  /* Evita capturar clicks durante el fade-out. */
+  pointer-events: none;
+}
+.layer.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* El fondo del contenedor principal es siempre negro para que el "silencio
+   entre páginas" sea idéntico al fondo de las pantallas. */
+#app { background: var(--bg); }
+
+/* Overlay entre secciones — "SECCIÓN COMPLETADA", "ARCHIVANDO INFORME…", etc.
+   Ocupa toda la ventana y comparte la misma capa de transición. */
+.flash-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  display: grid;
+  place-items: center;
+  z-index: 400;
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: .36em;
+  color: var(--text);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 40px;
+}
+
+/* La pantalla de introducción (logo + ARETÉ + ἀρετή + definición) también
+   pasa por el motor: el HTML antiguo queda como estructura interna, no se
+   añaden clases duplicadas de fade. */
+.intro-screen {
+  position: fixed;
+  inset: 0;
+  background: #0a0a0a;
+  display: grid;
+  place-items: center;
+  z-index: 9999;
+  padding: 64px 32px;
+}
+.intro-content {
+  max-width: 320px;
+  text-align: center;
+  font-family: "IBM Plex Serif", Georgia, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-logo {
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin: 0 0 72px;
+  user-select: none;
+  -webkit-user-drag: none;
+  opacity: .9;
+}
+.intro-title {
+  font-family: "IBM Plex Serif", Georgia, serif;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: .42em;
+  color: #ededed;
+  margin: 0 0 40px;
+  line-height: 1;
+  padding-left: .42em;
+}
+.intro-greek {
+  font-family: "IBM Plex Serif", Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9c9c9c;
+  margin: 0 0 56px;
+  letter-spacing: .04em;
+}
+.intro-desc {
+  font-family: "IBM Plex Serif", Georgia, serif;
+  font-size: 11px;
+  line-height: 2;
+  color: #8a8a8a;
+  margin: 0;
+  font-style: italic;
+  letter-spacing: .02em;
+}
+
+/* La cita de apertura ya no necesita animación propia: forma parte de una
+   pantalla completa que hace fade con el motor. Se mantienen las clases por
+   compatibilidad, pero sin transición interna que se solape con la del layer. */
+.quote-hidden  { opacity: 1; }
+.quote-visible { opacity: 1; }

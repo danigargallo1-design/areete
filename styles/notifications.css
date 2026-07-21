@@ -1,0 +1,141 @@
+/* Notificaciones — misma paleta y tipografía de parte oficial. */
+
+.notif-prompt {
+  width:100%;
+  max-width:340px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.notif-prompt .notif-hint {
+  color:var(--muted);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:9px;
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  margin:0 0 44px;
+}
+.notif-prompt .notif-body {
+  color:var(--text);
+  font-family:"IBM Plex Serif", Georgia, serif;
+  font-size:17px;
+  line-height:1.6;
+  margin:0 0 56px;
+  max-width:320px;
+}
+.notif-prompt .notif-activate {
+  border:0;
+  background:transparent;
+  color:var(--text);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:10px;
+  font-weight:500;
+  letter-spacing:.36em;
+  text-transform:uppercase;
+  padding:16px 24px;
+  transition:color .5s ease;
+}
+.notif-prompt .notif-activate:hover,
+.notif-prompt .notif-activate:active { color:#fff; }
+
+/* Sección Notificaciones en MI ESTÁNDAR */
+.notif-section .notif-toggle-row {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  min-height:52px;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  color:var(--text);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:10px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+}
+.notif-section .notif-toggle-row button {
+  border:0;
+  background:transparent;
+  color:var(--muted);
+  padding:10px 4px;
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:9px;
+  letter-spacing:.24em;
+}
+.notif-section .notif-freq-title {
+  color:var(--muted);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:9px;
+  letter-spacing:.24em;
+  margin:32px 0 12px;
+  text-transform:uppercase;
+}
+.notif-section .notif-freq-list { display:flex; flex-direction:column; }
+.notif-section .notif-freq-row {
+  display:flex;
+  align-items:center;
+  gap:16px;
+  min-height:46px;
+  border-bottom:1px solid var(--line);
+  color:var(--text);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:11px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+.notif-section .notif-freq-radio {
+  width:12px; height:12px; flex:none;
+  border:1px solid var(--muted);
+  border-radius:50%;
+  position:relative;
+  transition:background .3s ease;
+}
+.notif-section .notif-freq-radio.checked::after {
+  content:"";
+  position:absolute; inset:2px;
+  background:var(--text);
+  border-radius:50%;
+}
+.notif-section .notif-time-grid {
+  display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:28px;
+}
+.notif-section .notif-time-grid label {
+  display:flex; flex-direction:column; gap:8px;
+  color:var(--muted);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:9px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+}
+.notif-section .notif-time-grid input {
+  height:42px;
+  border:0; border-bottom:1px solid var(--line);
+  outline:0; background:transparent; color:var(--text);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:15px; letter-spacing:.14em; text-align:left;
+}
+.notif-section .notif-save {
+  width:100%; height:48px; margin-top:32px;
+  border:0; background:transparent;
+  color:var(--text);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:10px; font-weight:500; letter-spacing:.36em;
+  text-transform:uppercase;
+  transition:color .5s ease;
+}
+.notif-section .notif-save:hover,
+.notif-section .notif-save:active { color:#fff; }
+.notif-section .notif-status {
+  margin-top:14px; color:var(--muted);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:9px; letter-spacing:.22em; text-transform:uppercase;
+  min-height:14px;
+}
+.notif-section .notif-blocked {
+  color:var(--muted);
+  font-family:"IBM Plex Mono", Consolas, monospace;
+  font-size:10px; line-height:1.7;
+  letter-spacing:.12em; text-transform:uppercase;
+  margin:12px 0 0;
+}

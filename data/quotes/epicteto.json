@@ -1,0 +1,45 @@
+{
+  "author": "Epicteto",
+  "quotes": [
+    {
+      "text": "No son las cosas las que perturban, sino las opiniones sobre las cosas.",
+      "author": "Epicteto",
+      "category": "pensamiento",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "Primero di qué quieres ser; luego haz lo que tengas que hacer.",
+      "author": "Epicteto",
+      "category": "carácter",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "Ningún hombre es libre si no es dueño de sí mismo.",
+      "author": "Epicteto",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La riqueza no consiste en tener grandes posesiones, sino en tener pocas necesidades.",
+      "author": "Epicteto",
+      "category": "sobriedad",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "De las cosas, unas dependen de nosotros y otras no.",
+      "author": "Epicteto",
+      "category": "pensamiento",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    }
+  ]
+}

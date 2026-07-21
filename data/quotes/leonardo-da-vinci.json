@@ -1,0 +1,21 @@
+{
+  "author": "Leonardo da Vinci",
+  "quotes": [
+    {
+      "text": "La simplicidad es la máxima sofisticación.",
+      "author": "Leonardo da Vinci",
+      "category": "sobriedad",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "El aprendizaje nunca agota la mente.",
+      "author": "Leonardo da Vinci",
+      "category": "aprendizaje",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    }
+  ]
+}

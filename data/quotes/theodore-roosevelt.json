@@ -1,0 +1,21 @@
+{
+  "author": "Theodore Roosevelt",
+  "quotes": [
+    {
+      "text": "Haz lo que puedas, con lo que tengas, donde estés.",
+      "author": "Theodore Roosevelt",
+      "category": "acción",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "Cree que puedes y ya estás a medio camino.",
+      "author": "Theodore Roosevelt",
+      "category": "fortaleza",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    }
+  ]
+}

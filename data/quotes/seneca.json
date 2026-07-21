@@ -1,0 +1,53 @@
+{
+  "author": "Séneca",
+  "quotes": [
+    {
+      "text": "No es porque las cosas sean difíciles que no nos atrevemos; es porque no nos atrevemos que son difíciles.",
+      "author": "Séneca",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "Mientras enseñamos, aprendemos.",
+      "author": "Séneca",
+      "category": "aprendizaje",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "La suerte es lo que sucede cuando la preparación encuentra la oportunidad.",
+      "author": "Séneca",
+      "category": "preparación",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "Sufrimos más a menudo en la imaginación que en la realidad.",
+      "author": "Séneca",
+      "category": "pensamiento",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La dificultad fortalece la mente, como el trabajo fortalece el cuerpo.",
+      "author": "Séneca",
+      "category": "cuerpo",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "No es que tengamos poco tiempo, sino que perdemos mucho.",
+      "author": "Séneca",
+      "category": "tiempo",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    }
+  ]
+}

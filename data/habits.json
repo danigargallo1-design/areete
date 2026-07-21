@@ -1,0 +1,22 @@
+[
+  {
+    "key": "thought",
+    "title": "EL PENSAMIENTO",
+    "habits": ["Leer", "Programar", "Guitarra"]
+  },
+  {
+    "key": "body",
+    "title": "EL CUERPO",
+    "habits": ["Gimnasio", "Correr", "Estiramientos"]
+  },
+  {
+    "key": "habits",
+    "title": "LOS HÁBITOS",
+    "habits": ["Hacer la cama", "Preparar el día", "Beber suficiente agua"]
+  },
+  {
+    "key": "character",
+    "title": "EL CARÁCTER",
+    "habits": ["Procrastinar", "Redes sociales", "Perder el tiempo"]
+  }
+]

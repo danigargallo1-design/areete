@@ -1,0 +1,37 @@
+{
+  "author": "Benjamin Franklin",
+  "quotes": [
+    {
+      "text": "La energía y la persistencia conquistan todas las cosas.",
+      "author": "Benjamin Franklin",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    },
+    {
+      "text": "No dejes para mañana lo que puedas hacer hoy.",
+      "author": "Benjamin Franklin",
+      "category": "acción",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "Bien hecho es mejor que bien dicho.",
+      "author": "Benjamin Franklin",
+      "category": "acción",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": false
+    },
+    {
+      "text": "La diligencia es la madre de la buena suerte.",
+      "author": "Benjamin Franklin",
+      "category": "disciplina",
+      "language": "es",
+      "showAtStart": true,
+      "showAtEnd": true
+    }
+  ]
+}
