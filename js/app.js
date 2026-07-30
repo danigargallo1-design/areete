@@ -2,6 +2,8 @@
 // La lógica es intacta; se reforma únicamente la sensación, el vocabulario y
 // el orden visual.
 
+import "./firebase.js";
+
 import { seedDefaults, ensureToday, getRitual, toggleEntry, updateFields, finalizeDay, verdictFor } from "./ritual.js";
 import { needsOnboarding, runOnboarding } from "./onboarding.js";
 import { mountScreen, mountLoading, el, textArea, timeField, choiceList } from "./ui.js";

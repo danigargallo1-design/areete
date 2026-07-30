@@ -1,0 +1,24 @@
+{
+  "name": "areete",
+  "version": "1.0.0",
+  "description": "Registro diario de rendición de cuentas. Reescrito en HTML5, CSS3 y JavaScript ES6 puro — sin frameworks, sin bundlers y sin backend.",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigargallo1-design/areete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danigargallo1-design/areete/issues"
+  },
+  "homepage": "https://github.com/danigargallo1-design/areete#readme",
+  "dependencies": {
+    "firebase": "^12.16.0"
+  }
+}
