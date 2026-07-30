@@ -1,4 +1,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js";
+import {
+  getMessaging,
+  getToken
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-messaging.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBf4PyrvhPRpN9QvNQQT68-pzLZtjdcs_g",
@@ -10,6 +14,36 @@ const firebaseConfig = {
   measurementId: "G-DQ1TTWK7FG"
 };
 
-export const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
-console.log("Firebase conectado.");
+const messaging = getMessaging(app);
+
+export async function initNotifications() {
+  try {
+    if (!("serviceWorker" in navigator)) {
+      console.error("Este navegador no soporta Service Workers.");
+      return;
+    }
+
+    // Registrar (o reutilizar) tu sw.js
+    const registration = await navigator.serviceWorker.register("./sw.js");
+
+    const permission = await Notification.requestPermission();
+
+    if (permission !== "granted") {
+      console.log("❌ Permiso denegado");
+      return;
+    }
+
+    const token = await getToken(messaging, {
+      vapidKey: "BJSGbE1IU0-6f-aMoURO_CUu9G8wSuinOGJzeXM3VF5tmnInmzt4TT1m6uQnz5WnqeKxw-fUoa-NSiTDbPfiz4w",
+      serviceWorkerRegistration: registration
+    });
+
+    console.log("✅ Token FCM:");
+    console.log(token);
+
+  } catch (err) {
+    console.error("🔥 Error Firebase:", err);
+  }
+}

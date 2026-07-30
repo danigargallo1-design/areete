@@ -2,7 +2,7 @@
 // La lógica es intacta; se reforma únicamente la sensación, el vocabulario y
 // el orden visual.
 
-import "./firebase.js";
+import { initNotifications } from "./firebase.js";
 
 import { seedDefaults, ensureToday, getRitual, toggleEntry, updateFields, finalizeDay, verdictFor } from "./ritual.js";
 import { needsOnboarding, runOnboarding } from "./onboarding.js";
@@ -12,9 +12,11 @@ import { formatDate } from "./utils.js";
 import { db } from "./storage.js";
 import * as notifications from "./notifications.js";
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => undefined));
-}
+
+window.addEventListener("load", async () => {
+  await initNotifications();
+});
+
 
 let day = null;
 let verdict = null;
